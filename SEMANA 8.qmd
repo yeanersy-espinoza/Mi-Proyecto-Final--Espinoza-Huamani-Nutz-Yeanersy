@@ -1,0 +1,26 @@
+---
+title: "SEMANA 8"
+author: "GRUPO 6"
+format: html
+editor: visual
+---
+
+## SEMANA 8
+
+GRUPO 6
+
+```{r}
+#DATA 
+data<- read_csv("C:/Users/CLAUDIO ESPINOZA/Downloads/autismo.csv")
+
+```
+
+You can add options to executable code like this
+
+```{r}
+#CREAMOS EL HISTOGRAMA
+hist(data$Puntuacion_P1)
+hist(data$Puntuacion_P1,col = "pink")
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

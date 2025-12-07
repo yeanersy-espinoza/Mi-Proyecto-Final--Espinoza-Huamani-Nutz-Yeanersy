@@ -1,0 +1,27 @@
+---
+title: "SEMANA 10"
+author: "GRUPO 6"
+format: html
+editor: visual
+---
+
+## SEMANA 10
+
+GRUPO 6
+
+```{r}
+#CALCULAMOS LAS MEDIDAS DE TENDENCIA CENTRAL, COMENZANDO POR LA MEDIA ARITMETICA
+#MEDIDAS DE TENDENCIA CENTRAL
+#medida aritmetica
+mean(data$Puntuacion_P1)
+```
+
+```{r}
+#Continuamos con la MEDIANA
+median(data$Puntuacion_P1)
+```
+
+```{r}
+#Por último la MODA
+mode_puntuacion_P1<-(sort(table(data$Puntuacion_P1),decreasing = TRUE))
+```

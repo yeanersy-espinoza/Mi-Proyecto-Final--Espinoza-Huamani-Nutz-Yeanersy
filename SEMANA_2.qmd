@@ -1,0 +1,23 @@
+---
+title: "SEMANA 2"
+author: "GRUPO 6"
+format: html
+editor: visual
+---
+
+## CREAR UN PROYECTO EN RSTUDIO
+
+```{r}
+# 1- En la parte superior derecha o yéndonos a File: seleccionamos New Proyect.
+
+# 2- Luego se seleccionará nuevo directorio.
+
+# 3- Le damos en nuevo proyecto.
+ 
+# 4- Después le asignamos un nombre a nuestro proyecto.
+
+# 5- Seleccionamos el lugar a guardar.
+
+# 6- Por último se da guardar y se podrá observar en la parte superior derecha.
+
+```
